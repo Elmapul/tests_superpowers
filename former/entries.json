@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 10,
+  "nextEntryId": 11,
   "nodes": [
     {
       "id": "0",
@@ -32,6 +32,11 @@
           "type": "script"
         }
       ]
+    },
+    {
+      "id": "10",
+      "name": "Script (1)",
+      "type": "script"
     },
     {
       "id": "7",

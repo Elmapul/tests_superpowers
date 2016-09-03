@@ -2,7 +2,7 @@ declare var window;
 var XMLHttpRequest=window.XMLHttpRequest;
 var document=window.document;
 var alert=window.alert;
-
+/*
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -12,4 +12,4 @@ function loadDoc() {
   };
   xhttp.open("GET", "https://raw.githubusercontent.com/Elmapul/tests_superpowers/master/evalscript", true);
   xhttp.send();
-}
+}*/
