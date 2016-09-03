@@ -20,6 +20,21 @@
       "line": 3,
       "parentBehavior": null,
       "properties": []
+    },
+    "box": {
+      "scriptId": "12",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "jumpSpeed",
+          "type": "number"
+        }
+      ]
     }
   }
 }

@@ -9,7 +9,7 @@ class loadMap extends Sup.Behavior {
     
     
     
-    ////Game.map.setTileAt(0, 16, 10, 3);
+    Game.map.setTileAt(0, 16, 10, 3);
     
   }
 
