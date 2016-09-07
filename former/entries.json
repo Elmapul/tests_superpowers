@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 13,
+  "nextEntryId": 15,
   "nodes": [
     {
       "id": "0",
@@ -9,6 +9,11 @@
     {
       "id": "4",
       "name": "Tile Set",
+      "type": "tileSet"
+    },
+    {
+      "id": "13",
+      "name": "Tile Set (1)",
       "type": "tileSet"
     },
     {
@@ -56,6 +61,11 @@
         {
           "id": "12",
           "name": "box",
+          "type": "script"
+        },
+        {
+          "id": "14",
+          "name": "mapData",
           "type": "script"
         }
       ]
