@@ -55,7 +55,7 @@
         },
         {
           "id": "9",
-          "name": "Script",
+          "name": "maploader",
           "type": "script"
         },
         {
