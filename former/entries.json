@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 15,
+  "nextEntryId": 17,
   "nodes": [
     {
       "id": "0",
@@ -39,11 +39,6 @@
       ]
     },
     {
-      "id": "10",
-      "name": "Script (1)",
-      "type": "script"
-    },
-    {
       "id": "7",
       "name": "NotPortable",
       "type": null,
@@ -54,13 +49,30 @@
           "type": "script"
         },
         {
-          "id": "9",
-          "name": "maploader",
+          "id": "12",
+          "name": "box",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Box",
+      "type": "sprite"
+    },
+    {
+      "id": "15",
+      "name": "maps",
+      "type": null,
+      "children": [
+        {
+          "id": "10",
+          "name": "Game",
           "type": "script"
         },
         {
-          "id": "12",
-          "name": "box",
+          "id": "9",
+          "name": "maploader",
           "type": "script"
         },
         {
@@ -71,9 +83,9 @@
       ]
     },
     {
-      "id": "11",
-      "name": "Box",
-      "type": "sprite"
+      "id": "16",
+      "name": "Camera",
+      "type": "script"
     }
   ]
 }

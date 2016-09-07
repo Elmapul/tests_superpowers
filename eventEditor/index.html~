@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+<script src="logic.js"></script>
+<script src="game.js"></script>
+<script src="vars.js"></script>
+<script>
+
+if (lowerThan(args[0],args[1])){
+alert("funciona");
+}
+</script>
+
+teste
+</body>
+</html>
