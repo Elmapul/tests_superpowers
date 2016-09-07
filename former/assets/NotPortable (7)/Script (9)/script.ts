@@ -12,17 +12,16 @@ class loadMap extends Sup.Behavior {
     var auxiliar=mydata;
     var auxi2=auxiliar.layers;
     
-    //window.alert(auxi2[0].data[24]);
-    //window.alert(auxi2[0].data[25]);
-    //window.alert(auxi2[0].data[26]);
     
     
-    Game.map.setTileAt(0, 16, 5, 3);
+    
+    //Game.map.setTileAt(0, 16, 5, 3);
+    
     var count=0;
-    for (var i=0;i<10;i++){
-      for (var j=0; j<10; j++){
+    for (var y=0;y<20;y++){
+      for (var x=0; x<40; x++){
         count++;
-    Game.map.setTileAt(0, i, j, auxi2[0].data[count]);
+    Game.map.setTileAt(1, x, 20-y, (auxi2[0].data[count]-1));
         
         }
       }
