@@ -96,8 +96,8 @@
         }
       ],
       "position": {
-        "x": -17.05813980102539,
-        "y": -9.871000289916992,
+        "x": -17,
+        "y": -9.871,
         "z": 0
       },
       "orientation": {
@@ -171,7 +171,7 @@
       ],
       "position": {
         "x": -13.500000953674316,
-        "y": 8.862000465393066,
+        "y": 12.158514022827148,
         "z": 0
       },
       "orientation": {
@@ -292,6 +292,50 @@
         "x": 1,
         "y": 1,
         "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "5",
+      "name": "Fundo",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "formatVersion": 1,
+            "spriteAssetId": "17",
+            "animationId": null,
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 3.0610461235046387,
+        "y": 0,
+        "z": -13
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 0
       },
       "visible": true,
       "layer": 0,

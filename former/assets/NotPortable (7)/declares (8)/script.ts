@@ -2,6 +2,7 @@ declare var window;
 var XMLHttpRequest=window.XMLHttpRequest;
 var document=window.document;
 var alert=window.alert;
+var console=window.console;
 /*
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
