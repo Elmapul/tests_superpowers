@@ -18,6 +18,12 @@ class loadMap extends Sup.Behavior {
     //Game.map.setTileAt(0, 16, 5, 3);
     
     var count=0;
+    var transparentes=[];
+    
+    function aplicarTransp(){
+      
+    }
+    
     for (var y=0;y<=20;y++){
       for (var x=0; x<40; x++){
         //var teste;
